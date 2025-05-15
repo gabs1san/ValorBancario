@@ -15,7 +15,7 @@ namespace ValorBancario {
             Console.Write("Entre com o titular da conta: ");
             string titular = Console.ReadLine();
 
-            Console.Write("Havéra depósito incial?: (S/N): ");
+            Console.Write("Terá depósito incial?: (S/N): ");
             char resp = char.Parse(Console.ReadLine());
 
             if (resp == 's' || resp == 'S') {
